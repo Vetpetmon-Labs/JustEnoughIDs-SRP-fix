@@ -27,3 +27,5 @@ build
 run
 .DS_Store
 Thumbs.db
+src/main/java/org/dimdev/jeid/ParasiteEventWorld.java
+src/main/java/org/dimdev/jeid/SRPPacketBiomeChange.java
