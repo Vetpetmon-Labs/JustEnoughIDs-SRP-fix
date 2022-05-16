@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.Shadow;
 
 @Pseudo
 @Mixin(ParasiteEventWorld.class)
-public class MixinSpreadBiome {
+public abstract class MixinSpreadBiome {
     @Shadow public abstract Biome getBiome();
 
     //Overwriting the vanilla SRP SpreadBiome class, which is called by blocks.
