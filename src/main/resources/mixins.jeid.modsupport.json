@@ -26,6 +26,7 @@
     "hammercore.MixinWorldLocation",
     "journeymap.MixinChunkMD",
     "mystcraft.MixinBiomeReplacer",
+    "srparasites.MixinSpreadBiome",
     "thaumcraft.MixinUtils",
     "thebetweenlands.MixinBlockSpreadingDeath",
     "thebetweenlands.MixinGenLayerVoronoiZoomInstanced",
