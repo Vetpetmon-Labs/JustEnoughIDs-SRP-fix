@@ -24,6 +24,10 @@ public abstract class MixinSpreadBiome {
     //Keeping this a close as we possibly can with SRP's SpreadBiome class to ensure that things work properly,
     //this is Dhantry's code, I do not know how his code works, so I will leave the rest to him.
     //All I've done is replaced SRPMain.network.sendToDimension() & SRPPacketBiomeChange() with JEID's packet handlers.
+    /**
+     * @author Iké, Vetpetmon Labs
+     * @reason Make Scape and Run: Parasites compatible with JEID
+     */
     @Overwrite(remap = false)
     public static void SpreadBiome(World worldIn, BlockPos pos, int age) {
 
